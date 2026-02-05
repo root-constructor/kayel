@@ -27,6 +27,7 @@ const Navigation = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
 
+                <a href="#contact" className="btn btn-primary btn-small">Get in Touch</a>
             </div>
         </nav>
     )
