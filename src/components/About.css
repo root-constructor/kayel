@@ -45,26 +45,40 @@
     align-items: center;
 }
 
-.visual-box {
-    width: 400px;
-    height: 400px;
-    background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(0, 128, 255, 0.1));
-    border: 2px solid var(--color-accent-cyan);
-    border-radius: 1rem;
+/* Particle Sphere Container */
+.particle-sphere-container {
+    border-radius: 50%;
     position: relative;
-    animation: float 6s ease-in-out infinite;
 }
 
-.visual-box::before {
+.particle-sphere-container::before {
     content: '';
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    width: 80%;
-    height: 80%;
-    border: 2px solid rgba(0, 255, 255, 0.3);
-    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle,
+            rgba(0, 255, 255, 0.08) 0%,
+            rgba(0, 255, 255, 0.02) 40%,
+            transparent 70%);
+    pointer-events: none;
+    animation: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        opacity: 0.6;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.05);
+    }
 }
 
 @media (max-width: 968px) {
@@ -72,9 +86,14 @@
         grid-template-columns: 1fr;
     }
 
-    .visual-box {
-        width: 300px;
-        height: 300px;
+    .about-visual {
+        order: -1;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .particle-sphere-container {
+        width: 300px !important;
+        height: 300px !important;
     }
 
     .stats {

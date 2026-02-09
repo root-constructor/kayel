@@ -1,4 +1,5 @@
 import './About.css'
+import ParticleSphere from './ParticleSphere'
 
 const About = () => {
     return (
@@ -36,7 +37,7 @@ const About = () => {
                     </div>
 
                     <div className="about-visual">
-                        <div className="visual-box glow"></div>
+                        <ParticleSphere size={400} />
                     </div>
                 </div>
             </div>
