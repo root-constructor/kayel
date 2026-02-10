@@ -189,12 +189,13 @@
 .service-icon {
     font-size: 4rem;
     margin-bottom: var(--spacing-md);
-    filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.3));
-    transition: transform 0.3s ease;
+    filter: grayscale(100%) drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-card:hover .service-icon {
-    transform: scale(1.1) rotateY(10deg);
+    filter: grayscale(0%) drop-shadow(0 0 20px rgba(0, 255, 255, 0.4));
+    transform: scale(1.15) rotateY(10deg);
 }
 
 .service-title {
@@ -367,15 +368,17 @@
 
 .services-grid .service-card {
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
 }
 
 .services-grid .service-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-12px) rotateX(5deg) rotateY(-2deg) scale(1.02);
     border-color: var(--color-accent-cyan);
     box-shadow:
-        0 25px 70px rgba(0, 0, 0, 0.5),
-        0 0 50px rgba(0, 255, 255, 0.1);
+        0 30px 80px rgba(0, 0, 0, 0.6),
+        0 0 60px rgba(0, 255, 255, 0.2),
+        inset 0 0 30px rgba(0, 255, 255, 0.05);
 }
 
 /* Responsive */
