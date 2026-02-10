@@ -221,7 +221,7 @@
 }
 
 .service-card.expanded .service-details {
-    max-height: 400px;
+    max-height: 800px;
     opacity: 1;
     margin-bottom: var(--spacing-md);
 }

@@ -5,7 +5,7 @@ import './Services.css'
 const servicesData = [
     {
         icon: '💡',
-        title: 'Consulting & Advisory',
+        title: 'Consulting & Advisory Services',
         shortDesc: 'Strategic IT planning and digital transformation guidance',
         details: [
             'IT strategy and roadmap planning',
@@ -30,7 +30,7 @@ const servicesData = [
     },
     {
         icon: '📊',
-        title: 'Data & Analytics',
+        title: 'Data & Analytics Services',
         shortDesc: 'Transform data into actionable business insights',
         details: [
             'Database administration and management',
@@ -42,12 +42,26 @@ const servicesData = [
         ]
     },
     {
+        icon: '☁️',
+        title: 'Infrastructure & Cloud Services',
+        shortDesc: 'Scalable cloud solutions and robust infrastructure',
+        details: [
+            'Server setup and management',
+            'Cloud services (AWS, Azure, Google Cloud)',
+            'Data center operations',
+            'Storage & backup solutions',
+            'Disaster recovery & business continuity',
+            'Network design and implementation',
+            'Capacity planning and optimization'
+        ]
+    },
+    {
         icon: '⚙️',
         title: 'IT Operations & Managed Services',
         shortDesc: '24/7 monitoring and comprehensive IT management',
         details: [
             'Managed IT services (24/7 monitoring)',
-            'IT asset management',
+            'IT helpdesk / service desk (L1, L2, L3 support)',
             'Patch and release management',
             'Configuration management',
             'Change and incident management',
@@ -56,7 +70,7 @@ const servicesData = [
     },
     {
         icon: '🚀',
-        title: 'DevOps & Automation',
+        title: 'DevOps & Automation Services',
         shortDesc: 'Streamline development with modern DevOps practices',
         details: [
             'CI/CD pipeline implementation',
@@ -68,7 +82,7 @@ const servicesData = [
     },
     {
         icon: '🔒',
-        title: 'Cybersecurity',
+        title: 'Cybersecurity Services',
         shortDesc: 'Comprehensive security solutions and compliance',
         details: [
             'Security assessments and audits',
@@ -77,20 +91,40 @@ const servicesData = [
             'Firewall and intrusion detection/prevention',
             'Vulnerability management and penetration testing',
             'Security incident monitoring and response',
-            'Compliance and risk management (ISO, SOC, GDPR)'
+            'Compliance and risk management (ISO, SOC, GDPR, etc.)'
         ]
     },
     {
-        icon: '💻',
-        title: 'End-User & Workplace Services',
-        shortDesc: 'Complete IT support for your workforce',
+        icon: '🤖',
+        title: 'Automation Services',
+        shortDesc: 'Efficiency through intelligent process automation',
         details: [
-            'IT helpdesk / service desk (L1, L2, L3 support)',
-            'Desktop and laptop support',
-            'Device provisioning and lifecycle management',
-            'Mobile device management',
-            'Software installation and patching',
-            'User onboarding and offboarding support'
+            'IT process automation',
+            'Robotic Process Automation (RPA)',
+            'Infrastructure automation',
+            'Automated provisioning and configuration',
+            'Self-service portals and catalogs',
+            'Monitoring and alert automation',
+            'Automated backup and recovery'
+        ]
+    },
+    {
+        icon: '🧠',
+        title: 'Artificial Intelligence & Intelligent Services',
+        shortDesc: 'Cutting-edge AI solutions for business innovation',
+        details: [
+            'AI strategy and use-case consulting',
+            'AI/ML model development and deployment',
+            'Predictive analytics and forecasting',
+            'AI-powered IT operations (AIOps)',
+            'Intelligent monitoring and anomaly detection',
+            'Chatbots and virtual assistants (IT support, HR, customer service)',
+            'Natural Language Processing (NLP) solutions',
+            'Computer vision solutions',
+            'Recommendation engines',
+            'Intelligent document processing (IDP)',
+            'Voice assistants and speech recognition',
+            'Model training, tuning, and lifecycle management'
         ]
     }
 ]
