@@ -110,7 +110,7 @@ const servicesData = [
     },
     {
         icon: '🧠',
-        title: 'Artificial Intelligence & Intelligent Services',
+        title: 'Artificial Intelligence',
         shortDesc: 'Cutting-edge AI solutions for business innovation',
         details: [
             'AI strategy and use-case consulting',
