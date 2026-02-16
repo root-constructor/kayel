@@ -28,6 +28,10 @@
     animation: fadeInUp 1s ease-out 0.2s backwards;
 }
 
+.hero-title .gradient-text {
+    font-size: 1.3em;
+}
+
 .hero-subtitle {
     font-size: clamp(1rem, 2vw, 1.25rem);
     margin-bottom: var(--spacing-lg);
@@ -63,7 +67,7 @@
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .hero-cta {
