@@ -23,8 +23,8 @@ const Footer = () => {
                         <div className="footer-column">
                             <h4>Services</h4>
                             <ul>
-                                <li><a href="#services">Advisory and consulting</a></li>
-                                <li><a href="#services">Development and maintenance</a></li>
+                                <li><a href="#services">Advisory and Consulting</a></li>
+                                <li><a href="#services">Development and Maintenance</a></li>
                                 <li><a href="#services">Infrastructure & DevOps</a></li>
                                 <li><a href="#services">Automation and AI</a></li>
                                 <li><a href="#services">Cybersecurity</a></li>
@@ -36,7 +36,6 @@ const Footer = () => {
                             <ul>
                                 <li><a href="https://www.linkedin.com/company/kayeltech/">LinkedIn</a></li>
                                 <li><a href="https://www.instagram.com/kayeltech?igsh=ZW9uem5xd2JsazBs&utm_source=qr">Instagram</a></li>
-                                <li><a href="https://github.com">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
