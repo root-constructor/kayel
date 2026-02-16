@@ -11,32 +11,16 @@ const About = () => {
                             About <span className="gradient-text">KAYEL</span>
                         </h2>
                         <p>
-                            We are a high-precision technology consultancy that serves as the bridge between
-                            bold ambition and structured, scalable execution.
+                            We are a high-precision technology consultancy bridging bold ambition with structured,
+                            scalable execution. We transform visionary ideas into engineered, resilient systems
+                            across robotics, artificial intelligence, and enterprise technologies.
                         </p>
                         <p>
-                            In a time when innovation is commonplace but disciplined implementation remains rare,
-                            we believe authentic, bold ideas are not as ambitious as it may seem if paired with
-                            structured, scalable execution. We transform visionary ideas into engineered
-                            realities - systems designed not only to function, but to perform.
+                            From financial to legal and insurance ecosystems, we deliver intelligent infrastructures
+                            that enhance efficiency, institutionalize risk control, and create measurable, durable
+                            competitive advantage. Beyond fleeting trends and surface-level innovation, our work
+                            is grounded in longevity, precision, and performance.
                         </p>
-                        <p>
-                            Our expertise lies in translating complex, high-level concepts into scalable, resilient,
-                            and commercially viable solutions, especially in the areas of robotics , artificial
-                            intelligence and enterprise-grade intelligent systems.
-                        </p>
-                        <p>
-                            From financial infrastructures to legal and insurance technology ecosystems, we architect
-                            and deliver solutions that enhance operational efficiency, institutionalize risk control,
-                            and generate measurable financial impact.
-                        </p>
-                        <p>
-                            We do not simply build software - we craft intelligent systems that drive growth, strengthen
-                            governance, and create enduring competitive advantage.Beyond fleeting trends and surface-level
-                            innovation, our work is grounded in longevity, precision, and performance. Because true
-                            transformation is not about momentum - it is about durability.
-                        </p>
-
 
                         <div className="stats">
                             <div className="stat-item">

@@ -17,7 +17,7 @@ const Navigation = () => {
         <nav className={`navigation ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
                 <div className="logo">
-                    <img src="/kayel/logo.png" alt="KAYEL Logo" className="logo-img" />
+                    <img src="/kayel/logo-trans.png" alt="KAYEL Logo" className="logo-img" />
                     <span className="gradient-text">KAYEL</span>
                 </div>
 
