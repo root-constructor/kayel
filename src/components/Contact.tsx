@@ -29,7 +29,7 @@ const Contact = () => {
                                 <span className="contact-icon">📱</span>
                                 <div>
                                     <h4>Phone</h4>
-                                    <a href="tel:+919744141499">+91 9744141499</a>
+                                    <a href="tel:+919744141499">+91 9744 14 1499</a>
                                 </div>
                             </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                                 <span className="contact-icon">📍</span>
                                 <div>
                                     <h4>Location</h4>
-                                    <p>Kochi, India</p>
+                                    <p>India</p>
                                 </div>
                             </div>
                         </div>
